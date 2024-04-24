@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="container">
+        <form action="https://formspree.io/f/mayzprjk" method="POST">
+            <h2>Contact</h2>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="firstname" required="required">
+                        <span class="text">Prénom</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="surname" required="required">
+                        <span class="text">Nom</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="email" name="email" required="required">
+                        <span class="text">Email</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="number" maxl="10" min="10" name="mobile" required="required">
+                        <span class="text">Telephone</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea required="required" name="message"></textarea>
+                            <span class="text">Ecrivez votre message ici...</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" value="Envoyer">
+                        <input type="button" value="Retour à la page d'acceuil" onclick="window.location.href='C:/ProjetVisualStudioCode/Portfolio/index.html'">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
